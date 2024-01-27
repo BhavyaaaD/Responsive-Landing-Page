@@ -151,11 +151,10 @@ ul{
 .img-hero{
     max-width:50%;
     margin-right:50px;
-    margin-left:0;
     
 }
 .img-hero img{
-    object-fit:cover;
+    object-fit:contain;
     height:90vh;
     width:100%;
 }
