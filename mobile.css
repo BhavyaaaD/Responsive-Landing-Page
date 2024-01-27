@@ -133,7 +133,7 @@ nav{
 .text{
    max-width: 100%;
    text-align:center;
-   margin:40px 20px;
+   margin:10px 20px;
 }
 
 .text h1{
@@ -150,14 +150,13 @@ nav{
 
 .img-hero{
     min-width:100%;
-    height:30%;
     margin:0;
 }
 
 .img-hero img{
     content: url('./images/image-hero-mobile.png');
     object-fit: cover;
-    height:30%;
+    height:50%;
 }
 .sponsers {
     display: flex;
