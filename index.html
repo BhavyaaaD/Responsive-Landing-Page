@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" media ="screen and (max-width:820px)" href="./mobile.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="left-nav">
+        <div class="logo"><img src="./images/logo.svg" alt="logo"></div>
+        <nav>
+          <ul>
+            <li>
+              <div class="dropdown" id="features">
+                Features<button id="features-btn">
+                  <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+                </button>
+              </div>
+            </li>
+            <li>
+              <div class="dropdown" id="company">
+                Company<button id="company-btn">
+                  <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+                </button>
+              </div>
+            </li>
+            <li class="careers">Careers</li>
+            <li><a href="/">About</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="right-nav">
+        <nav>
+          <ul>
+            <li class="login"><a href="/">Login</a></li>
+            <li class="register"><a href="/">Register</a></li>
+          </ul>
+        </nav>
+        <div class="nav-toggle">
+          <div class="overlay"></div>
+          <input type="checkbox" id="menu-bar" name="menu-bar" />
+          <label for="menu-bar">
+            <img class="menu" src="./images/icon-menu.svg" alt="menu">
+          </label>
+          <ul class="mobile-menu">
+            <label for="menu-bar">
+              <img class="close" src="./images/icon-close-menu.svg" alt="close-menu">
+            </label>
+            <li class="features"><div class="dropdown" id="features">
+              Features<button id="fm-btn">
+                <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+              </button>
+            </div></li>
+            <div class="fm-menu">
+              <div>
+                <img src="./images/icon-todo.svg"><a href="/">Todo List</a>
+              </div>
+              <div>
+                <img src="./images/icon-calendar.svg"><a href="/">Calendar</a>
+              </div>
+              <div>
+                <img src="./images/icon-reminders.svg"><a href="/">Reminders</a>
+              </div>
+              <div>
+                <img src="./images/icon-planning.svg"><a href="/">Planning</a>
+              </div>
+            </div>
+            <li class="company">
+              <div class="dropdown" id="company">
+                Company<button id="cm-btn">
+                  <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+                </button>
+              </div>
+            </li>
+            <div class="cm-menu">
+              <div><a href="/">History</a> </div>
+              <div><a href="/">Our Team</a></div>
+              <div><a href="/">Blog</a></div>
+            </div>
+            <li class="careers">Careers</li>
+            <li class="about"><a href="/">About</a></li>
+            
+            <li class="login"><a href="/">Login</a></li>
+            <li class="register"><a href="/">Register</a></li>
+
+            
+          </ul>
+
+        </div>
+
+      </div>
+      
+    </header>
+    <div class="menu">
+      <div class="sub-menu">
+        <div>
+          <img src="./images/icon-todo.svg"><a href="/">Todo List</a>
+        </div>
+        <div>
+          <img src="./images/icon-calendar.svg"><a href="/">Calendar</a>
+        </div>
+        <div>
+          <img src="./images/icon-reminders.svg"><a href="/">Reminders</a>
+        </div>
+        <div>
+          <img src="./images/icon-planning.svg"><a href="/">Planning</a>
+        </div>
+      </div>
+      <div class="company-menu">
+        <div><a href="/">History</a> </div>
+        <div><a href="/">Our Team</a></div>
+        <div><a href="/">Blog</a></div>
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="img-hero">
+        <img src="./images/image-hero-desktop.png" alt="image-hero">
+
+
+      </div>
+      <div class="text">
+        <h1>Make remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes,
+          create team rituals,and watch productivity soar.</p>
+
+        <button class="learn-more">Learn more</button>
+        <div class="sponsers">
+          <div class="client"><img class="client-img" src="/images/client-databiz.svg"></div>
+          <div class="client"><img class="client-img" src="/images/client-audiophile.svg"></div>
+          <div class="client"><img class="client-img" src="./images/client-meet.svg"></div>
+          <div class="client"><img class="client-img" src="./images/client-maker.svg"></div>
+
+        </div>
+
+      </div>
+  
+
+    </div>
+
+  </div>
+
+  <script src="./script.js"></script>
+
+
+</body>
+
+</html>
