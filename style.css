@@ -22,7 +22,7 @@ ul{
     margin:0;
 }
 .container {
-    max-width: 100 vw;
+    max-width: 1440px;
     height:100 vh;
     margin: 0 auto;
    
@@ -131,7 +131,7 @@ ul{
     
 }
 .text{
-    margin-top:50px;
+    margin-top:120px;
     max-width: 45%;
     
 }
@@ -149,8 +149,7 @@ ul{
     line-height: 1.5;
 }
 .img-hero{
-    max-width:50%;
-    margin-right:50px;
+    max-width:40%;
     
 }
 .img-hero img{
@@ -179,7 +178,7 @@ ul{
 .sponsers{
     display:flex;
     justify-content: space-between;
-    margin-top:70px;
+    margin-top:120px;
 }
 
 .sub-menu{
